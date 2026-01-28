@@ -71,12 +71,14 @@ scope.ingest()
 
 ## Repository Structure
 
+```bash
 vectorscope/
 ├── core/          # Projection and clustering logic
 ├── connectors/    # Database integrations
 ├── visualizers/   # Plot generation
 ├── report/        # HTML report generation
 └── api.py         # Main user interface
+```
 
 ## Extending 
 
